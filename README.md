@@ -1,5 +1,4 @@
 # turbografx16
-Fun with Mediawiki!
 
 In the winter of 2018 I founded two companies. While the mission of each business is entirely different, both are centered on deep learning techonology. The first question that came to mind when forming these two companies was; "How do I manage a business in order to maximize the efficiency of myself and the team?" The answer was, create a mediawiki server for each. 
 
