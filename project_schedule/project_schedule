@@ -1,0 +1,166 @@
+:{| class="wikitable" style="text-align: center;"
+|-
+! scope="col" style="width: 15em;" | Task
+! scope="col" style="width: 21em;" | Milestone ID
+! scope="col" | Start Forecast
+! scope="col" | Start Actual
+! scope="col" | Complete Forecast
+! scope="col" | Complete Actual
+! scope="col" | Duration
+! scope="col" | Deviation
+
+|-
+! scope="row" | Research
+| 
+| 03/23/2018
+| 03/23/2018
+| 09/28/2018
+| 
+| 26 weeks
+|
+|-
+! scope="row" | Data Validation
+| 
+| 04/06/2018
+| 
+| 04/13/2018
+| 
+| 1 week
+|
+|-
+! scope="row" | Data Pre-Process
+| '''M1'''
+| 04/13/2018
+| 
+| 05/04/2018
+| 
+| 4 weeks
+|
+|-
+! scope="row" | RNN [[REV1]]
+| 
+| 04/20/2018
+| 
+| 05/11/2018
+| 
+| 3 weeks
+|
+|-
+! scope="row" | Train [[REV1]]
+| '''M2'''
+| 05/11/2018
+| 
+| 06/01/2018
+| 
+| 3 weeks
+|
+|-
+! scope="row" | Test [[REV1]]
+| '''M2'''
+| 05/11/2018
+| 
+| 06/01/2018
+| 
+| 3 weeks
+|
+|-
+! scope="row" | RNN [[REV2]]
+| 
+| 06/01/2018
+| 
+| 06/08/2018
+| 
+| 1 week
+|
+|-
+! scope="row" | Train [[REV2]]
+| '''M3'''
+| 06/08/2018
+| 
+| 06/22/2018
+| 
+| 2 weeks
+|
+|-
+! scope="row" | Test [[REV2]]
+| '''M3'''
+| 06/08/2018
+| 
+| 06/22/2018
+| 
+| 2 weeks
+|
+|-
+! scope="row" | Data Scrape
+| 
+| 06/22/2018
+| 
+| 08/17/2018
+| 
+| 8 weeks
+|
+|-
+! scope="row" | I/O Script
+| 
+| 06/22/2018
+| 
+| 08/24/2018
+| 
+| 5 weeks
+|
+|-
+! scope="row" | Notification Script
+| 
+| 07/20/2018
+| 
+| 08/31/2018
+| 
+| 6 weeks
+|
+|-
+! scope="row" | RNN [[REV3]]
+| 
+| 06/22/2018
+| 
+| 07/20/2018
+| 
+| 4 weeks
+|
+|-
+! scope="row" | Train [[REV3]]
+| '''M4'''
+| 07/06/2018
+| 
+| 07/20/2018
+| 
+| 2 weeks
+|
+|-
+! scope="row" | Test [[REV3]]
+| '''M4'''
+| 07/06/2018
+| 
+| 07/20/2018
+| 
+| 2 weeks
+|
+|-
+! scope="row" | Implementation
+| '''M5'''
+| 07/20/2018
+| 
+| 09/14/2018
+| 
+| 8 weeks
+|
+|-
+! scope="row" | Optimization
+| 
+| 08/17/2018
+| 
+| 09/28/2018
+| 
+| 6 weeks
+|
+
+|}
