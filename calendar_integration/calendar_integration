@@ -1,0 +1,23 @@
+<includeonly><iframe src="//www.google.com/calendar/<!--{if isset($app)}-->hosted/<!--{$app|escape:'urlpathinfo'}-->/<!--{/if}-->
+embed?<!--{if isset($title)}-->title=<!--{$title|escape:'urlpathinfo'}-->&amp;<!--{/if}--><!--{if isset($pvttk)}-->pvttk
+=<!--{$pvttk|escape:'urlpathinfo'}-->&amp;<!--{/if}--><!--{if is_array($id)}--><!--{foreach from=$id item=i}-->src=<!--
+{$i|escape:'urlpathinfo'}-->&amp;<!--{/foreach}--><!--{else}-->src=<!--{$id|escape:'urlpathinfo'}-->&amp;<!--{/if}--><!--
+{if is_array($color)}--><!--{foreach from=$color item=c}-->color=%23<!--{$c|escape:'urlpathinfo'}-->&amp;<!--{/foreach}-->
+<!--{else}-->color=%23<!--{$color|escape:'urlpathinfo'}-->&amp;<!--{/if}-->height=<!--{$height|escape:'urlpathinfo'|default:600}-->
+&amp;showTitle=<!--{if isset($showtitle) and not $showtitle}-->0<!--{else}-->1<!--{/if}-->&amp;showNav=<!--{if isset($shownav) 
+and not $shownav}-->0<!--{else}-->1<!--{/if}-->&amp;showDate=<!--{if isset($showdate) and not $showdate}-->0<!--{else}-->1
+<!--{/if}-->&amp;showTabs=<!--{if isset($showtabs) and not $showtabs}-->0<!--{else}-->1<!--{/if}-->&amp;showCalendars=<!--
+{if isset($showcals) and not $showcals}-->0<!--{else}-->1<!--{/if}-->&amp;showPrint=<!--{if isset($showprint) and not $showprint}-->
+0<!--{else}-->1<!--{/if}-->&amp;showTz=<!--{if isset($showtz) and not $showtz}-->0<!--{else}-->1<!--{/if}-->&amp;wkst=<!--
+{$weekstart|escape:'urlpathinfo'|default:1}-->&amp;hl=<!--{$lang|escape:'urlpathinfo'|default:en}-->&amp;mode=
+<!--{$view|escape:'urlpathinfo'|default:MONTH}-->&amp;<!--{if isset($dates)}-->dates=<!--{$dates|escape:'urlpathinfo'}-->&amp;
+<!--{/if}--><!--{if isset($timezone)}-->ctz=<!--{$timezone|escape:'urlpathinfo'}-->&amp;<!--{/if}--><!--{if isset($bgcolor)}-->
+bgcolor=%23<!--{$bgcolor|escape:'urlpathinfo'}--><!--{/if}-->" width="<!--{$width|escape:'html'|default:'100%'}-->" height="
+<!--{$height|escape:'html'|default:600}-->" scrolling="no"<!--{if isset($border)}--> style="border: solid 1px #777"<!--{/if}-->
+<!--{if isset($style)}--> style="<!--{$style|escape:'html'}-->"<!--{/if}-->></iframe></includeonly>
+
+{{#widget:Google Calendar
+|id=1f5rie41rj95v46luijn9af370@group.calendar.google.com
+|color=2952A3
+|title=Fluxor Dev Team
+}}
